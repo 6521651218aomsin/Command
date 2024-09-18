@@ -1,0 +1,11 @@
+cls
+docker ps
+docker ps --all
+docker run hello-world
+docker run busybox ping google.com
+docker stop ตามด้วยไอดีเทรนเนอร์ ทำอันนี้ก่อนแล้ว rm ตามด้านล่าง
+docker rm ตามด้วยไอดีคอนเทรนเนอร์ >> อันนี้คือคำสั่งลบ
+docker system prung ***อันตราย
+docker run -p 80:80 nginx
+docker run -p 9000:80 nginx
+docker exec -it 1872dc8f2162 bash
